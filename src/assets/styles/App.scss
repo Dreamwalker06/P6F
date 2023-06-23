@@ -1,0 +1,28 @@
+$primary-color1: #FF6060;
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active{
+    text-decoration:none;
+  }
+
+// Navigation elements
+
+.navigation {
+    display: flex;
+    align-items: center;
+    .nav-bar {
+            width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    gap: 57px;
+    font-size: 24px;
+    }
+        li {
+        color: $primary-color1
+        
+    }
+}
