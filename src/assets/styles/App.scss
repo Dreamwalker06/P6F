@@ -26,3 +26,28 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
         
     }
 }
+
+// Footer elements
+
+.footer {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    height: 209px;
+    flex-direction: column;
+    width: calc(100% + 200px);
+    margin: 0px -100px 0px -100px;
+    
+    .footer-text {
+        color: white;
+        margin-top: 28.56px;
+        font-size: 24px;
+    }
+}
+
+.footer img {
+    padding-top: 66px;
+}
+
+
+
