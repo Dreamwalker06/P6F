@@ -6,10 +6,10 @@ const Navigation = () => {
     <div className="navigation">
       <img src="images/logo.png" alt="Logo kasa"></img>
       <ul className="nav-bar">
-        <NavLink to="/">
+        <NavLink exact to="/" activeClassName="active">
           <li>Accueil</li>
         </NavLink>
-        <NavLink to="/about">
+        <NavLink exact to="/about" activeClassName="active">
           <li>A propos</li>
         </NavLink>
       </ul>

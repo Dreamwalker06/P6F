@@ -11,6 +11,7 @@ const Banner = ({ background, size, filter, className, children }) => {
     marginTop: "50px",
     marginBottom: "50px",
   };
+
   return (
     <div className={`banner ${className}`} style={bannerStyle}>
       <h1>{children}</h1>

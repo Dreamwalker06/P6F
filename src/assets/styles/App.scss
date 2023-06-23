@@ -25,7 +25,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
         color: $primary-color1
         
     }
+    .nav-bar .active {
+      text-decoration: underline;
+      color: $primary-color1;
+    }
 }
+
+
 
 // Footer elements
 
@@ -36,26 +42,32 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
     height: 209px;
     flex-direction: column;
     width: calc(100% + 200px);
-    margin: 0px -100px 0px -100px;
+    margin: 50px -100px 0px -100px;
     
     .footer-text {
         color: white;
         margin-top: 28.56px;
         font-size: 24px;
     }
+
 }
 
 .footer img {
-    padding-top: 66px;
+  padding-top: 66px;
 }
+
+
 
 // Banner elements home page
 
 .banner { 
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
         h1 {
             filter: none;
             color: white;
+            font-size: 48px;
             
         }
     
@@ -122,3 +134,31 @@ a, a:link, a:visited, a:focus, a:hover, a:active{
   .collapse-arrow.rotated {
     transform: rotate(180deg); /* Rotation de 180 degrés */
   }
+
+  // Page 404
+
+  .erreurImage {
+    width: 597px;
+    height: 263;
+}
+
+.erreurPage {
+    margin-top: 139px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 139px;
+    color: #FF6060;
+}
+
+.erreurTextOops {
+    font-size: 36px;
+}
+
+.erreurTextRedirection {
+    font-size: 18px;
+    color :#FF6060;
+    text-decoration: underline
+}
+
