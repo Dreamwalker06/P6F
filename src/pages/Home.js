@@ -3,6 +3,7 @@ import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
 import backgroundImage from "../assets/images/Image1.webp";
+import Card from "../components/Card";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       >
         Chez vous, partout et ailleurs
       </Banner>
+      <Card />
 
       <Footer />
     </div>
